@@ -1,4 +1,4 @@
-name: 中青阅读s
+name: 中青自动阅读
 
 on:
   workflow_dispatch:
@@ -23,5 +23,5 @@ jobs:
       - name: 'Install requirements'          
         run: pip install -r ./requirements.txt 
     
-      - name: 'run 中青阅读' 
+      - name: 'run 中青自动阅读' 
         run: python3 youth_read.py 
